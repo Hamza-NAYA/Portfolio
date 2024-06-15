@@ -111,7 +111,7 @@
     &--active {
       visibility: hidden;
       opacity: 0;
-   
+
       @include respond(phone) {
         visibility: visible;
         opacity: 1;
@@ -131,7 +131,7 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       transition: color .3s;
-      
+
       &:hover {
         color: $themeClrPrimary;
       }
